@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.vz.eureka</groupId>
-	<artifactId>spring-eureka-server</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<groupId>com.vzb.cameo</groupId>
+	<artifactId>cameo-registry-server</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>spring-eureka-server</name>
-	<description>Demo project for Eureka Server</description>
+	<name>cameo-registry-server</name>
+	<description>CAMEO Eureka Registry Server</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -27,7 +27,7 @@
         	<dependency>
             	<groupId>org.springframework.cloud</groupId>
             	<artifactId>spring-cloud-dependencies</artifactId>
-            	<version>Brixton.RELEASE</version>
+            	<version>Brixton.SR1</version>
             	<type>pom</type>
             	<scope>import</scope>
         	</dependency>
